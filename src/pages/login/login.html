@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>Login</ion-title>
+    </ion-navbar>
+  </ion-header>
+<ion-content padding class="login-container">
+	<form>
+		<ion-list>
+			<ion-item class="txtdesign1">
+				<ion-input type="email" name="user_email" placeholder="Email"></ion-input>
+			</ion-item>
+
+			<ion-item class="txtdesign2">
+				<ion-input type="password" name="user_password"  placeholder="Password"></ion-input>
+			</ion-item>
+
+		</ion-list>
+	</form>
+    <button ion-button full color="primary" (click)="LoginUser()" class="btndesign" tappable>Log In</button>
+</ion-content>`
